@@ -1,0 +1,990 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Maruti Suzuki",
+      "model": "Swift",
+      "variant": "VXI Manual",
+      "price_inr": 649000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 23.2,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 89.7,
+        "torque_nm": 113,
+        "seating_capacity": 5,
+        "boot_space_litres": 268,
+        "length_mm": 3845,
+        "width_mm": 1735,
+        "height_mm": 1530,
+        "ground_clearance_mm": 163
+      },
+      "user_reviews": [
+        "Best-in-class mileage, very reliable for daily city commute.",
+        "Sporty looks with good handling. A bit cramped for rear passengers.",
+        "Low maintenance cost and wide service network across India."
+      ]
+    },
+    {
+      "id": 2,
+      "make": "Hyundai",
+      "model": "Grand i10 Nios",
+      "variant": "Sportz Manual",
+      "price_inr": 718000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 20.7,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 82.8,
+        "torque_nm": 114,
+        "seating_capacity": 5,
+        "boot_space_litres": 260,
+        "length_mm": 3805,
+        "width_mm": 1680,
+        "height_mm": 1520,
+        "ground_clearance_mm": 165
+      },
+      "user_reviews": [
+        "Smooth ride quality and comfortable cabin for a hatchback.",
+        "Good feature list at this price point. Infotainment is easy to use.",
+        "Fuel efficiency is decent in highway conditions."
+      ]
+    },
+    {
+      "id": 3,
+      "make": "Tata",
+      "model": "Tiago",
+      "variant": "XZ+ AMT",
+      "price_inr": 684000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 19.8,
+      "safety_rating": 4,
+      "specs": {
+        "engine_cc": 1199,
+        "power_bhp": 85.8,
+        "torque_nm": 113,
+        "seating_capacity": 5,
+        "boot_space_litres": 242,
+        "length_mm": 3765,
+        "width_mm": 1677,
+        "height_mm": 1535,
+        "ground_clearance_mm": 168
+      },
+      "user_reviews": [
+        "5-star safety rating gives real peace of mind. Great value car.",
+        "AMT gearbox is smooth in city traffic. Good for daily use.",
+        "Interior quality has improved a lot compared to older Tata cars."
+      ]
+    },
+    {
+      "id": 4,
+      "make": "Maruti Suzuki",
+      "model": "Baleno",
+      "variant": "Delta CVT",
+      "price_inr": 849000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 22.9,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 89.7,
+        "torque_nm": 113,
+        "seating_capacity": 5,
+        "boot_space_litres": 318,
+        "length_mm": 3990,
+        "width_mm": 1745,
+        "height_mm": 1500,
+        "ground_clearance_mm": 161
+      },
+      "user_reviews": [
+        "Spacious cabin with the largest boot in this segment.",
+        "CVT is silky smooth in bumper-to-bumper traffic.",
+        "Mileage is excellent but the suspension could be a bit stiffer."
+      ]
+    },
+    {
+      "id": 5,
+      "make": "Hyundai",
+      "model": "i20",
+      "variant": "Asta CVT",
+      "price_inr": 1199000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 19.65,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 88.7,
+        "torque_nm": 114,
+        "seating_capacity": 5,
+        "boot_space_litres": 311,
+        "length_mm": 4040,
+        "width_mm": 1775,
+        "height_mm": 1505,
+        "ground_clearance_mm": 161
+      },
+      "user_reviews": [
+        "Loaded with features like sunroof, wireless charging and BOSE speakers.",
+        "Premium feel inside the cabin with soft-touch materials.",
+        "CVT is smooth but acceleration could be better in sport mode."
+      ]
+    },
+    {
+      "id": 6,
+      "make": "Toyota",
+      "model": "Glanza",
+      "variant": "V Manual",
+      "price_inr": 899000,
+      "body_type": "hatchback",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 22.4,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 89.7,
+        "torque_nm": 113,
+        "seating_capacity": 5,
+        "boot_space_litres": 318,
+        "length_mm": 3990,
+        "width_mm": 1745,
+        "height_mm": 1500,
+        "ground_clearance_mm": 161
+      },
+      "user_reviews": [
+        "Toyota reliability with Maruti underpinnings – best of both worlds.",
+        "Excellent after-sales service at Toyota dealerships.",
+        "Good for long highway drives. Comfortable seats."
+      ]
+    },
+    {
+      "id": 7,
+      "make": "Tata",
+      "model": "Tiago EV",
+      "variant": "XZ+ Long Range",
+      "price_inr": 999000,
+      "body_type": "hatchback",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "mileage_kmpl": null,
+      "range_km": 315,
+      "safety_rating": 4,
+      "specs": {
+        "battery_kwh": 24,
+        "power_bhp": 74.7,
+        "torque_nm": 114,
+        "seating_capacity": 5,
+        "boot_space_litres": 242,
+        "length_mm": 3769,
+        "width_mm": 1677,
+        "height_mm": 1535,
+        "ground_clearance_mm": 168,
+        "fast_charging_min": 57
+      },
+      "user_reviews": [
+        "Best entry-level EV in India. Running cost is extremely low.",
+        "Charging infra in cities is good. Range anxiety is minimal.",
+        "Zippy in city traffic. The instant torque makes it fun to drive."
+      ]
+    },
+    {
+      "id": 8,
+      "make": "Maruti Suzuki",
+      "model": "Celerio",
+      "variant": "ZXI CNG",
+      "price_inr": 699000,
+      "body_type": "hatchback",
+      "fuel_type": "cng",
+      "transmission": "manual",
+      "mileage_kmpl": 35.6,
+      "safety_rating": 2,
+      "specs": {
+        "engine_cc": 998,
+        "power_bhp": 56.2,
+        "torque_nm": 82.1,
+        "seating_capacity": 5,
+        "boot_space_litres": 235,
+        "length_mm": 3695,
+        "width_mm": 1655,
+        "height_mm": 1555,
+        "ground_clearance_mm": 170
+      },
+      "user_reviews": [
+        "Incredible running cost on CNG. Ideal for cab/taxi drivers.",
+        "CNG boot space is reduced but manageable for city use.",
+        "Light on pocket. Perfect second car for city errands."
+      ]
+    },
+    {
+      "id": 9,
+      "make": "Renault",
+      "model": "Kiger",
+      "variant": "RXZ Turbo CVT",
+      "price_inr": 949000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 18.24,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 999,
+        "power_bhp": 99.5,
+        "torque_nm": 160,
+        "seating_capacity": 5,
+        "boot_space_litres": 405,
+        "length_mm": 3991,
+        "width_mm": 1750,
+        "height_mm": 1600,
+        "ground_clearance_mm": 205
+      },
+      "user_reviews": [
+        "Punchy turbo engine, best-in-class acceleration under 10 lakhs.",
+        "High ground clearance handles bad roads very well.",
+        "CVT could be better tuned for highway overtaking speeds."
+      ]
+    },
+    {
+      "id": 10,
+      "make": "Nissan",
+      "model": "Magnite",
+      "variant": "XV Premium Manual",
+      "price_inr": 849000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 20.0,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 999,
+        "power_bhp": 71.8,
+        "torque_nm": 96,
+        "seating_capacity": 5,
+        "boot_space_litres": 336,
+        "length_mm": 3994,
+        "width_mm": 1758,
+        "height_mm": 1572,
+        "ground_clearance_mm": 205
+      },
+      "user_reviews": [
+        "Stylish SUV looks at a hatchback price. Great street presence.",
+        "360-degree camera is a segment-first feature at this price.",
+        "Non-turbo engine is slightly underpowered on highways."
+      ]
+    },
+    {
+      "id": 11,
+      "make": "Hyundai",
+      "model": "Venue",
+      "variant": "S Petrol Manual",
+      "price_inr": 1099000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 17.5,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 82.8,
+        "torque_nm": 114,
+        "seating_capacity": 5,
+        "boot_space_litres": 350,
+        "length_mm": 3995,
+        "width_mm": 1770,
+        "height_mm": 1605,
+        "ground_clearance_mm": 195
+      },
+      "user_reviews": [
+        "Connected car features are genuinely useful in daily commute.",
+        "Cabin quality and build finish is very good for the price.",
+        "Ride quality could be better on broken roads."
+      ]
+    },
+    {
+      "id": 12,
+      "make": "Hyundai",
+      "model": "Venue",
+      "variant": "S CNG Manual",
+      "price_inr": 1149000,
+      "body_type": "suv",
+      "fuel_type": "cng",
+      "transmission": "manual",
+      "mileage_kmpl": 27.4,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1197,
+        "power_bhp": 68.05,
+        "torque_nm": 95.2,
+        "seating_capacity": 5,
+        "boot_space_litres": 295,
+        "length_mm": 3995,
+        "width_mm": 1770,
+        "height_mm": 1605,
+        "ground_clearance_mm": 195
+      },
+      "user_reviews": [
+        "CNG SUV is a rare offering. Great for high-mileage drivers.",
+        "Factory-fitted CNG kit gives confidence on safety.",
+        "Boot space is compromised but acceptable for city use."
+      ]
+    },
+    {
+      "id": 13,
+      "make": "Tata",
+      "model": "Nexon",
+      "variant": "XZ+ Petrol Manual",
+      "price_inr": 1249000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 17.01,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1199,
+        "power_bhp": 118.3,
+        "torque_nm": 170,
+        "seating_capacity": 5,
+        "boot_space_litres": 350,
+        "length_mm": 3993,
+        "width_mm": 1811,
+        "height_mm": 1606,
+        "ground_clearance_mm": 208
+      },
+      "user_reviews": [
+        "5-star Global NCAP safety rating is unbeatable. Safest in class.",
+        "Turbo petrol engine is very responsive and fun to drive.",
+        "Looks bold and macho. Gets attention on the road."
+      ]
+    },
+    {
+      "id": 14,
+      "make": "Tata",
+      "model": "Nexon EV",
+      "variant": "Creative Plus Long Range",
+      "price_inr": 1699000,
+      "body_type": "suv",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "mileage_kmpl": null,
+      "range_km": 465,
+      "safety_rating": 5,
+      "specs": {
+        "battery_kwh": 40.5,
+        "power_bhp": 141.6,
+        "torque_nm": 215,
+        "seating_capacity": 5,
+        "boot_space_litres": 350,
+        "length_mm": 3993,
+        "width_mm": 1811,
+        "height_mm": 1606,
+        "ground_clearance_mm": 208,
+        "fast_charging_min": 56
+      },
+      "user_reviews": [
+        "Best-selling EV in India for good reason. Great range and features.",
+        "Zero running cost compared to petrol version. Savings are real.",
+        "DC fast charging support makes long trips practical."
+      ]
+    },
+    {
+      "id": 15,
+      "make": "Mahindra",
+      "model": "XUV300",
+      "variant": "W8 Diesel Manual",
+      "price_inr": 1319000,
+      "body_type": "suv",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "mileage_kmpl": 20.0,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1497,
+        "power_bhp": 115.9,
+        "torque_nm": 300,
+        "seating_capacity": 5,
+        "boot_space_litres": 257,
+        "length_mm": 3995,
+        "width_mm": 1821,
+        "height_mm": 1627,
+        "ground_clearance_mm": 180
+      },
+      "user_reviews": [
+        "Diesel torque is incredible. Makes highway drives very effortless.",
+        "Dual-zone AC and panoramic sunroof at this price is amazing.",
+        "Boot space is on the smaller side compared to rivals."
+      ]
+    },
+    {
+      "id": 16,
+      "make": "Kia",
+      "model": "Sonet",
+      "variant": "GTX+ Diesel DCT",
+      "price_inr": 1649000,
+      "body_type": "suv",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "mileage_kmpl": 19.0,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1493,
+        "power_bhp": 113.4,
+        "torque_nm": 250,
+        "seating_capacity": 5,
+        "boot_space_litres": 392,
+        "length_mm": 3995,
+        "width_mm": 1790,
+        "height_mm": 1642,
+        "ground_clearance_mm": 211
+      },
+      "user_reviews": [
+        "DCT gearbox is very sporty and quick. Great for enthusiasts.",
+        "Loaded with features. The UVO connected car tech is impressive.",
+        "Premium feel inside. Build quality rivals European brands."
+      ]
+    },
+    {
+      "id": 17,
+      "make": "Maruti Suzuki",
+      "model": "Brezza",
+      "variant": "ZXI Automatic",
+      "price_inr": 1396000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 19.8,
+      "safety_rating": 4,
+      "specs": {
+        "engine_cc": 1462,
+        "power_bhp": 103.2,
+        "torque_nm": 137,
+        "seating_capacity": 5,
+        "boot_space_litres": 328,
+        "length_mm": 3995,
+        "width_mm": 1790,
+        "height_mm": 1635,
+        "ground_clearance_mm": 198
+      },
+      "user_reviews": [
+        "Smooth AT with paddle shifters is genuinely fun to use.",
+        "HUD display is a premium feature rarely seen in this segment.",
+        "Good for both city and highway driving. Well-rounded SUV."
+      ]
+    },
+    {
+      "id": 18,
+      "make": "Maruti Suzuki",
+      "model": "Ciaz",
+      "variant": "Alpha Petrol Manual",
+      "price_inr": 1289000,
+      "body_type": "sedan",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 20.65,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1462,
+        "power_bhp": 103.6,
+        "torque_nm": 138,
+        "seating_capacity": 5,
+        "boot_space_litres": 510,
+        "length_mm": 4490,
+        "width_mm": 1730,
+        "height_mm": 1485,
+        "ground_clearance_mm": 150
+      },
+      "user_reviews": [
+        "Massive 510L boot. Perfect for family road trips.",
+        "Comfortable rear seat with ample legroom. Great chauffeur car.",
+        "Mileage is best-in-class for a sedan. Very economical."
+      ]
+    },
+    {
+      "id": 19,
+      "make": "Volkswagen",
+      "model": "Virtus",
+      "variant": "Highline Manual",
+      "price_inr": 1349000,
+      "body_type": "sedan",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 19.89,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1498,
+        "power_bhp": 113.4,
+        "torque_nm": 178,
+        "seating_capacity": 5,
+        "boot_space_litres": 521,
+        "length_mm": 4561,
+        "width_mm": 1752,
+        "height_mm": 1507,
+        "ground_clearance_mm": 179
+      },
+      "user_reviews": [
+        "European build quality is immediately noticeable. Very solid car.",
+        "Excellent highway stability. Feels planted at 120 km/h.",
+        "5-star safety is a huge plus for a family sedan."
+      ]
+    },
+    {
+      "id": 20,
+      "make": "Hyundai",
+      "model": "Verna",
+      "variant": "SX IVT",
+      "price_inr": 1449000,
+      "body_type": "sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 18.6,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1497,
+        "power_bhp": 158.8,
+        "torque_nm": 253,
+        "seating_capacity": 5,
+        "boot_space_litres": 528,
+        "length_mm": 4535,
+        "width_mm": 1765,
+        "height_mm": 1475,
+        "ground_clearance_mm": 155
+      },
+      "user_reviews": [
+        "Turbo engine makes it one of the quickest in the segment.",
+        "ADAS features like lane-keep assist are genuinely useful.",
+        "Sporty design is very refreshing. Looks imported."
+      ]
+    },
+    {
+      "id": 21,
+      "make": "Honda",
+      "model": "City",
+      "variant": "ZX CVT",
+      "price_inr": 1599000,
+      "body_type": "sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 18.4,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1498,
+        "power_bhp": 119.6,
+        "torque_nm": 145,
+        "seating_capacity": 5,
+        "boot_space_litres": 506,
+        "length_mm": 4549,
+        "width_mm": 1748,
+        "height_mm": 1489,
+        "ground_clearance_mm": 165
+      },
+      "user_reviews": [
+        "Honda's reliability legacy makes it a safe long-term buy.",
+        "Cabin is very airy with large windows. Rear seat is excellent.",
+        "CVT is smooth but the engine could use more low-end torque."
+      ]
+    },
+    {
+      "id": 22,
+      "make": "Skoda",
+      "model": "Slavia",
+      "variant": "Style DSG",
+      "price_inr": 1799000,
+      "body_type": "sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 16.95,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1498,
+        "power_bhp": 148.6,
+        "torque_nm": 250,
+        "seating_capacity": 5,
+        "boot_space_litres": 521,
+        "length_mm": 4541,
+        "width_mm": 1752,
+        "height_mm": 1487,
+        "ground_clearance_mm": 179
+      },
+      "user_reviews": [
+        "DSG gearbox is lightning fast. 0-100 in 8.5s is very quick.",
+        "European sophistication at an Indian price point.",
+        "Sunroof and Skoda Sound System make long drives a pleasure."
+      ]
+    },
+    {
+      "id": 23,
+      "make": "Honda",
+      "model": "City eHEV",
+      "variant": "ZX Hybrid CVT",
+      "price_inr": 1999000,
+      "body_type": "sedan",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "mileage_kmpl": 26.5,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1498,
+        "power_bhp": 126,
+        "torque_nm": 253,
+        "seating_capacity": 5,
+        "boot_space_litres": 506,
+        "length_mm": 4549,
+        "width_mm": 1748,
+        "height_mm": 1489,
+        "ground_clearance_mm": 165
+      },
+      "user_reviews": [
+        "26.5 km/l mileage in a full-size sedan is simply outstanding.",
+        "Two electric motors give very smooth acceleration and refinement.",
+        "Premium choice for eco-conscious buyers who want a proper sedan."
+      ]
+    },
+    {
+      "id": 24,
+      "make": "Hyundai",
+      "model": "Creta",
+      "variant": "SX IVT",
+      "price_inr": 1848000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 17.4,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1497,
+        "power_bhp": 158.8,
+        "torque_nm": 253,
+        "seating_capacity": 5,
+        "boot_space_litres": 433,
+        "length_mm": 4330,
+        "width_mm": 1790,
+        "height_mm": 1635,
+        "ground_clearance_mm": 190
+      },
+      "user_reviews": [
+        "India's best-selling SUV for a reason. Balanced in every way.",
+        "Panoramic sunroof and ADAS pack make it feel very premium.",
+        "Turbo IVT combo is smooth and efficient in the city."
+      ]
+    },
+    {
+      "id": 25,
+      "make": "Kia",
+      "model": "Seltos",
+      "variant": "HTX+ IVT",
+      "price_inr": 1849000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 16.5,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1497,
+        "power_bhp": 158.8,
+        "torque_nm": 253,
+        "seating_capacity": 5,
+        "boot_space_litres": 433,
+        "length_mm": 4365,
+        "width_mm": 1800,
+        "height_mm": 1645,
+        "ground_clearance_mm": 190
+      },
+      "user_reviews": [
+        "Kia's fit and finish is on par with premium European brands.",
+        "Bose sound system is phenomenal. Love the 10.25-inch infotainment.",
+        "Slightly pricier than Creta but the perceived quality justifies it."
+      ]
+    },
+    {
+      "id": 26,
+      "make": "MG",
+      "model": "Astor",
+      "variant": "Sharp CVT",
+      "price_inr": 1799000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 15.49,
+      "safety_rating": 4,
+      "specs": {
+        "engine_cc": 1349,
+        "power_bhp": 140,
+        "torque_nm": 220,
+        "seating_capacity": 5,
+        "boot_space_litres": 400,
+        "length_mm": 4323,
+        "width_mm": 1809,
+        "height_mm": 1651,
+        "ground_clearance_mm": 177
+      },
+      "user_reviews": [
+        "AI assistant inside the car is a unique and interesting feature.",
+        "ADAS suite is very comprehensive. Feels like a much costlier car.",
+        "Good highway cruiser but infotainment could be more responsive."
+      ]
+    },
+    {
+      "id": 27,
+      "make": "Toyota",
+      "model": "Urban Cruiser Hyryder",
+      "variant": "Advanced E-Four Hybrid",
+      "price_inr": 1999000,
+      "body_type": "suv",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "mileage_kmpl": 27.97,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1490,
+        "power_bhp": 114.5,
+        "torque_nm": 141,
+        "seating_capacity": 5,
+        "boot_space_litres": 369,
+        "length_mm": 4365,
+        "width_mm": 1795,
+        "height_mm": 1635,
+        "ground_clearance_mm": 200
+      },
+      "user_reviews": [
+        "28 km/l mileage in an SUV is unbelievable. Saves thousands monthly.",
+        "AWD hybrid system gives great traction on hilly roads.",
+        "Toyota's legendary reliability sealed the deal for me."
+      ]
+    },
+    {
+      "id": 28,
+      "make": "Tata",
+      "model": "Harrier",
+      "variant": "XZ+ Diesel Manual",
+      "price_inr": 2199000,
+      "body_type": "suv",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "mileage_kmpl": 16.35,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1956,
+        "power_bhp": 167.7,
+        "torque_nm": 350,
+        "seating_capacity": 5,
+        "boot_space_litres": 425,
+        "length_mm": 4598,
+        "width_mm": 1894,
+        "height_mm": 1706,
+        "ground_clearance_mm": 200
+      },
+      "user_reviews": [
+        "Massive road presence. Easily the best looking SUV under 25 lakhs.",
+        "350 Nm torque is effortless on highways. Diesel pulls like a train.",
+        "5-star safety rating plus commanding driving position is very reassuring."
+      ]
+    },
+    {
+      "id": 29,
+      "make": "Mahindra",
+      "model": "Scorpio N",
+      "variant": "Z4 Diesel Manual",
+      "price_inr": 1999000,
+      "body_type": "suv",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "mileage_kmpl": 15.07,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 2184,
+        "power_bhp": 130.4,
+        "torque_nm": 300,
+        "seating_capacity": 7,
+        "boot_space_litres": 480,
+        "length_mm": 4662,
+        "width_mm": 1917,
+        "height_mm": 1857,
+        "ground_clearance_mm": 202
+      },
+      "user_reviews": [
+        "7-seater with proper off-road capability. No compromises.",
+        "5-star safety in a body-on-frame SUV is very impressive.",
+        "Feels like a proper tough SUV. Perfect for long road trips."
+      ]
+    },
+    {
+      "id": 30,
+      "make": "MG",
+      "model": "ZS EV",
+      "variant": "Excite+ Standard Range",
+      "price_inr": 2399000,
+      "body_type": "suv",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "mileage_kmpl": null,
+      "range_km": 461,
+      "safety_rating": 5,
+      "specs": {
+        "battery_kwh": 50.3,
+        "power_bhp": 174.5,
+        "torque_nm": 280,
+        "seating_capacity": 5,
+        "boot_space_litres": 448,
+        "length_mm": 4314,
+        "width_mm": 1809,
+        "height_mm": 1649,
+        "ground_clearance_mm": 177,
+        "fast_charging_min": 60
+      },
+      "user_reviews": [
+        "Best electric SUV under 25 lakhs. Smooth and powerful.",
+        "461 km range means zero compromise on road trips.",
+        "MG Connect app for remote charging is very convenient."
+      ]
+    },
+    {
+      "id": 31,
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "variant": "ZXI+ Manual",
+      "price_inr": 1299000,
+      "body_type": "mpv",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 20.3,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1462,
+        "power_bhp": 103.6,
+        "torque_nm": 138,
+        "seating_capacity": 7,
+        "boot_space_litres": 803,
+        "length_mm": 4395,
+        "width_mm": 1735,
+        "height_mm": 1690,
+        "ground_clearance_mm": 185
+      },
+      "user_reviews": [
+        "Best 7-seater under 15 lakhs. Third row is actually usable.",
+        "Smooth K-series engine with great fuel efficiency for an MPV.",
+        "Wide service network and low maintenance make ownership easy."
+      ]
+    },
+    {
+      "id": 32,
+      "make": "Kia",
+      "model": "Carens",
+      "variant": "Luxury Plus Diesel DCT",
+      "price_inr": 1849000,
+      "body_type": "mpv",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "mileage_kmpl": 19.9,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1493,
+        "power_bhp": 113.4,
+        "torque_nm": 250,
+        "seating_capacity": 7,
+        "boot_space_litres": 640,
+        "length_mm": 4540,
+        "width_mm": 1800,
+        "height_mm": 1708,
+        "ground_clearance_mm": 195
+      },
+      "user_reviews": [
+        "Premium MPV that feels more like a luxury SUV inside.",
+        "DCT gearbox is quick and the diesel pulls effortlessly.",
+        "Panoramic sunroof and ADAS in an MPV is a game changer."
+      ]
+    },
+    {
+      "id": 33,
+      "make": "Mahindra",
+      "model": "XUV700",
+      "variant": "AX3 Petrol Manual",
+      "price_inr": 1449000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "mileage_kmpl": 14.67,
+      "safety_rating": 5,
+      "specs": {
+        "engine_cc": 1997,
+        "power_bhp": 197.2,
+        "torque_nm": 380,
+        "seating_capacity": 7,
+        "boot_space_litres": 645,
+        "length_mm": 4695,
+        "width_mm": 1890,
+        "height_mm": 1755,
+        "ground_clearance_mm": 200
+      },
+      "user_reviews": [
+        "5-star safety in a 7-seater SUV at this price is unbelievable value.",
+        "200 bhp is immense — pulls all 7 passengers without effort.",
+        "Massive presence on the road. People move out of the way."
+      ]
+    },
+    {
+      "id": 34,
+      "make": "Hyundai",
+      "model": "Alcazar",
+      "variant": "Prestige Executive AT",
+      "price_inr": 1999000,
+      "body_type": "suv",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "mileage_kmpl": 14.5,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 1999,
+        "power_bhp": 157.2,
+        "torque_nm": 191,
+        "seating_capacity": 7,
+        "boot_space_litres": 180,
+        "length_mm": 4500,
+        "width_mm": 1790,
+        "height_mm": 1675,
+        "ground_clearance_mm": 200
+      },
+      "user_reviews": [
+        "Premium 7-seater with a refined cabin. Second row captain seats are brilliant.",
+        "Smooth AT gearbox pairs well with the 2.0L engine on highways.",
+        "BOSE audio and 10.25-inch dual screens make every ride enjoyable."
+      ]
+    },
+    {
+      "id": 35,
+      "make": "Toyota",
+      "model": "Innova Crysta",
+      "variant": "GX Diesel Manual",
+      "price_inr": 2149000,
+      "body_type": "mpv",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "mileage_kmpl": 14.29,
+      "safety_rating": 3,
+      "specs": {
+        "engine_cc": 2393,
+        "power_bhp": 148.6,
+        "torque_nm": 343,
+        "seating_capacity": 7,
+        "boot_space_litres": 300,
+        "length_mm": 4735,
+        "width_mm": 1830,
+        "height_mm": 1795,
+        "ground_clearance_mm": 178
+      },
+      "user_reviews": [
+        "India's most trusted family MPV. Bulletproof reliability over decades.",
+        "Diesel torque makes driving 7 people feel completely effortless.",
+        "Resale value is the best in the segment. Holds price like gold."
+      ]
+    }
+  ]
+}
