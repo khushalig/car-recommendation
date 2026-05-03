@@ -1,0 +1,30 @@
+# ── Go backend ───────────────────────────────────────────────────────────────
+backend/car-recommendation
+backend/car-recommendation.exe
+*.exe
+*.test
+*.out
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ── Frontend build output ────────────────────────────────────────────────────
+frontend/dist/
+frontend/dist-ssr/
+
+# ── Dependencies ─────────────────────────────────────────────────────────────
+**/node_modules/
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
