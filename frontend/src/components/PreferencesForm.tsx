@@ -46,11 +46,14 @@ const SEATING_OPTIONS = [
   { value: 7, label: '7+'  },
 ]
 
-const DEFAULT_PREFS: UserPreferences = {
+// Separate form state type so usage can be unset before the user picks one
+type FormValues = Omit<UserPreferences, 'usage'> & { usage: UsageType | '' }
+
+const DEFAULT_PREFS: FormValues = {
   budget:           { min: MIN_PRICE, max: MAX_PRICE },
   fuel_types:       [],
   body_types:       [],
-  usage:            '' as UsageType,
+  usage:            '',
   priorities:       [],
   seating_capacity: 0,
 }
@@ -61,14 +64,14 @@ interface Props {
 }
 
 export default function PreferencesForm({ onSubmit, isLoading }: Props) {
-  const [prefs, setPrefs] = useState<UserPreferences>(DEFAULT_PREFS)
+  const [prefs, setPrefs] = useState<FormValues>(DEFAULT_PREFS)
 
   const isValid = prefs.usage !== ''
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (!isValid) return
-    onSubmit(prefs)
+    onSubmit(prefs as UserPreferences)
   }
 
   return (
